@@ -1,19 +1,24 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://perdanahadii.github.io"
-
-# Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
+---
+title: Clean Blog
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: your-email@example.com
+description: A Blog Theme by Start Bootstrap
+author: Start Bootstrap
+baseurl: "/startbootstrap-clean-blog-jekyll"
+url: http://perdanahadii.github.io
+twitter_username: SBootstrap
+github_username: BlackrockDigital
 facebook_username: StartBootstrap
-
-# Build settings
-markdown:          kramdown
-paginate:          5
-paginate_path:     "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
+- jekyll-feed
+- jekyll-paginate
