@@ -11,8 +11,8 @@ collections:
 email: perdanahadisanjaya@gmail.com
 description: My personal opinionated blog about Software & Cloud Development.
 author: Perdana Hadi Sanjaya
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: http://perdanahadii.github.io/startbootstrap-clean-blog-jekyll/
+baseurl: "/"
+url: http://perdanahadi.com
 twitter_username: perdanahadii
 github_username: perdanahadii
 facebook_username: 
