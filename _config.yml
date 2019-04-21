@@ -1,19 +1,24 @@
-title:             Perdana Hadi Sanjaya
-email:             perdanahadisanjaya@gmail.com
-description:       An opininated blog about Software & Cloud Development
-author:            Perdana Hadi Sanjaya
-baseurl:           "/"
-url:               "http://perdanahadi.com"
-
-# Social Profiles
-twitter_username:  perdanahadii
-github_username:   perdanahadii
+---
+title: Perdana Hadi Sanjaya
+timezone: Asia/Jakarta
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: perdanahadisanjaya@gmail.com
+description: An opininated blog about Software & Cloud Development
+author: Perdana Hadi Sanjaya
+baseurl: "/"
+url: http://perdanahadi.com
+twitter_username: perdanahadii
+github_username: perdanahadii
 facebook_username: 
-
-# Build settings
-markdown:          kramdown
-paginate:          5
-paginate_path:     "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
+- jekyll-feed
+- jekyll-paginate
